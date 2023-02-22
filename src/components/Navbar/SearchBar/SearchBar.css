@@ -1,0 +1,21 @@
+.featured__drag-scroll {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: fit-content;
+    gap: 8px;
+    align-items: flex-start;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      overflow: -moz-scrollbars-none;
+    cursor: grab;
+}
+
+&::-webkit-scrollbar {
+    display: none;
+}

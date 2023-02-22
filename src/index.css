@@ -1,0 +1,84 @@
+@import url("https://api.fontshare.com/v2/css?f[]=boska@900,500,400,200,700,300&f[]=alpino@300,400,100,700,900&display=swap");
+
+:root {
+  --font-primary: Boska, serif;
+  --font-secondary: Alpino, sans-serif;
+  --primary-color: #CD094E;
+  --secondary-color: #FFBCDE;
+  --semantic-danger: #F61E2C;
+  --semantic-danger_soft: #FFCFD2;
+  --semantic-danger_strong: #C81C27;
+  --semantic-warning: #FEA602;
+  --semantic-warning_soft: #FEDA97;
+  --semantic-warning_strong: #8C5E06;
+  --semantic-success: #63D15C;
+  --semantic-success_soft: #C2E4BF;
+  --semantic-success_strong: #166D10;
+  --semantic-safety: #2B9AD6;
+  --semantic-safety_soft: #136089;
+  --semantic-safety_strong: #CCEBFC;
+  --neutral-light: #FEE5F1;
+  --neutral-light_2: #FFBCBC;
+  --neutral-light_3: #D1C3FD;
+  --neutral-dark: #290000;
+  --neutral-dark_2: #15024D;
+}
+
+* {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  scrollbar-color: #CD094E #FFD8EA;
+  scrollbar-width: thin;
+  background: var(--neutral-light);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #FFD8EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #CD094E;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.h1, h2, h3, h4, h5, p, svg, div {
+  background: none;
+}
+
+h1 {
+  font-size: clamp(1.5em, 8em, 6.66vw);
+}
+h2 {
+  font-size: clamp(1.125em, 6em, 5vw);
+}
+h3 {
+  font-size: clamp(1em, 4em, 3.33vw);
+}
+h4 {
+  font-size: clamp(2.25em, 3em, 1.66vw);
+}
+h5 {
+  font-size: clamp(1em, 1.25em, 1.25vw);
+}
+p {
+  font-size: clamp(0.875em, 1em, 1vw);
+}
