@@ -157,25 +157,25 @@ export const NewProductsTitle = styled.h5`
 `
 
 export const NewProductsGrid = styled.div`
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 24px 24px; 
-    grid-template-areas: 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 24px 24px;
+    grid-template-areas:
         ". . ."
         ". . ."
-        ". . ."; 
+        ". . .";
     width: 100%;
     height: 100%;
 
     @media (max-width: 640px) {
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 0fr; 
-        gap: 1rem; 
-        grid-template-areas: 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 0fr;
+        gap: 1rem;
+        grid-template-areas:
             ". . "
             ". . "
-            ". . "; 
+            ". . ";
     }
 `
 export const ProductsGridCard = styled.div`
@@ -268,7 +268,7 @@ export const FeaturedProductHeader = styled.div`
         text-transform: capitalize;
 
         @media (max-width: 1024px) {
-            font-size: clamp(1.65em, 3em, 1.66vw);
+            font-size: clamp(1.5em, 3em, 1.66vw);
         }
     }
 
@@ -277,7 +277,7 @@ export const FeaturedProductHeader = styled.div`
         font-style: normal;
         font-weight: 300;
         color: var(--primary-color);
-        font-size: clamp(1em, 1.5em, 1.25vw)
+        font-size: clamp(0.875em, 1.5em, 1.25vw);
         letter-spacing: 0.04em;
         text-transform: uppercase;
     }

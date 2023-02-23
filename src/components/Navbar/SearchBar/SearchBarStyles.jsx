@@ -61,7 +61,6 @@ export const SearchBarQuickResults = styled.div`
     flex-wrap: nowrap;
     width: 100%;
     height: fit-content;
-    max-height: 80vh;
     align-items: flex-start;
     padding: 2rem 0rem 2rem 2rem;
     background-color: var(--neutral-dark);
